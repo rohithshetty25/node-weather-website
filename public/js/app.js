@@ -1,4 +1,4 @@
-console.log("The script is running successfully in the terminal");
+//console.log("The script is running successfully in the terminal");
 
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
